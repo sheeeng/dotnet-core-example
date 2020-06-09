@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  dotnet-core:
+    build:
+      context: .
+    environment:
+      - TZ=Europe/Oslo
